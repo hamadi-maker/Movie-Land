@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Movie Land
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movie Land is a simple React application that allows you to search for movies using the OMdb API. You can find detailed information about movies, such as title, year, plot, and ratings.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search for movies by title
+- View movie details including title, year, plot, and ratings
+- Responsive design for seamless browsing on different devices
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: JavaScript library for building user interfaces
+- OMdb API: Open Movie Database API for fetching movie data
+- HTML5: Markup language for structuring and presenting content
+- CSS3: Styling the user interface
+- JavaScript: Programming language for client-side functionality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+```
+git clone https://github.com/hamadi-maker/Movie-Land.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+```
+cd movie-land
+```
 
-### `npm run build`
+3. Install dependencies:
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Obtain an API key from OMdb:
+   - Visit the OMdb website: https://www.omdbapi.com/
+   - Sign up for an account and obtain an API key
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Create a `.env` file in the project root directory and add your API key:
+```
+REACT_APP_OMDB_API_KEY=YOUR_API_KEY_HERE
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Start the React app:
+```
+npm start
+```
 
-### `npm run eject`
+7. Open your web browser and access the app at `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Enter a movie title in the search bar and press Enter or click the Search button.
+- View the search results, including movie titles and years.
+- Click on a movie to view detailed information such as the plot and ratings.
